@@ -3,3 +3,14 @@ __pycache__/
 *.pyc
 *.json
 .env
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+dbt/**/target/
+dbt/**/logs/
+
+data/*.csv

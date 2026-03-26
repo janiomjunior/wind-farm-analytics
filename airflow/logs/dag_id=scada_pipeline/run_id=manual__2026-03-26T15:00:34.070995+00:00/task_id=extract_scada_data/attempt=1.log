@@ -1,0 +1,30 @@
+[2026-03-26T15:00:35.009+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-26T15:00:35.057+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scada_pipeline.extract_scada_data manual__2026-03-26T15:00:34.070995+00:00 [queued]>
+[2026-03-26T15:00:35.064+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scada_pipeline.extract_scada_data manual__2026-03-26T15:00:34.070995+00:00 [queued]>
+[2026-03-26T15:00:35.064+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-26T15:00:35.088+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): extract_scada_data> on 2026-03-26 15:00:34.070995+00:00
+[2026-03-26T15:00:35.116+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=318) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-26T15:00:35.118+0000] {standard_task_runner.py:64} INFO - Started process 319 to run task
+[2026-03-26T15:00:35.116+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'scada_pipeline', 'extract_scada_data', 'manual__2026-03-26T15:00:34.070995+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/scada_pipeline_dag.py', '--cfg-path', '/tmp/tmpk30db4ti']
+[2026-03-26T15:00:35.121+0000] {standard_task_runner.py:91} INFO - Job 3: Subtask extract_scada_data
+[2026-03-26T15:00:35.231+0000] {task_command.py:426} INFO - Running <TaskInstance: scada_pipeline.extract_scada_data manual__2026-03-26T15:00:34.070995+00:00 [running]> on host a90eb16e62dd
+[2026-03-26T15:00:35.368+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scada_pipeline' AIRFLOW_CTX_TASK_ID='extract_scada_data' AIRFLOW_CTX_EXECUTION_DATE='2026-03-26T15:00:34.070995+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-26T15:00:34.070995+00:00'
+[2026-03-26T15:00:35.368+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-26T15:00:35.381+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-26T15:00:35.383+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        cd /opt/project &&\n        python ingestion/ingest_scada.py\n        ']
+[2026-03-26T15:00:35.392+0000] {subprocess.py:86} INFO - Output:
+[2026-03-26T15:00:37.271+0000] {subprocess.py:93} INFO - Downloading dataset from Kaggle...
+[2026-03-26T15:00:37.272+0000] {subprocess.py:93} INFO - Dataset downloaded to: /home/***/.cache/kagglehub/datasets/berkerisen/wind-turbine-scada-dataset/versions/3
+[2026-03-26T15:00:37.272+0000] {subprocess.py:93} INFO - Files found: ['T1.csv']
+[2026-03-26T15:00:37.272+0000] {subprocess.py:93} INFO - Reading file: /home/***/.cache/kagglehub/datasets/berkerisen/wind-turbine-scada-dataset/versions/3/T1.csv
+[2026-03-26T15:00:37.273+0000] {subprocess.py:93} INFO - Loaded 50530 rows and 5 columns
+[2026-03-26T15:00:37.273+0000] {subprocess.py:93} INFO - Original columns: ['Date/Time', 'LV ActivePower (kW)', 'Wind Speed (m/s)', 'Theoretical_Power_Curve (KWh)', 'Wind Direction (°)']
+[2026-03-26T15:00:37.273+0000] {subprocess.py:93} INFO - Cleaned columns: ['date_time', 'lv_activepower_kw', 'wind_speed_ms', 'theoretical_power_curve_kwh', 'wind_direction_deg']
+[2026-03-26T15:00:37.273+0000] {subprocess.py:93} INFO - Saving dataset to data/scada_data.csv...
+[2026-03-26T15:00:37.273+0000] {subprocess.py:93} INFO - Done. File saved at: data/scada_data.csv
+[2026-03-26T15:00:37.367+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-03-26T15:00:37.368+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-26T15:00:37.389+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=scada_pipeline, task_id=extract_scada_data, run_id=manual__2026-03-26T15:00:34.070995+00:00, execution_date=20260326T150034, start_date=20260326T150035, end_date=20260326T150037
+[2026-03-26T15:00:37.419+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-26T15:00:37.437+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-26T15:00:37.440+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
