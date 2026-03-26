@@ -971,3 +971,66 @@
 [2026-03-26T16:07:10.859+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:07:10.858+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-03-26T16:07:10.872+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:07:10.871+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
 [2026-03-26T16:07:10.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.090 seconds
+[2026-03-26T16:07:44.313+0000] {processor.py:161} INFO - Started process (PID=1222) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:07:44.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:07:44.318+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:07:44.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:07:44.340+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:07:44.385+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:07:44.384+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:07:44.405+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:07:44.404+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:07:44.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.161 seconds
+[2026-03-26T16:08:17.880+0000] {processor.py:161} INFO - Started process (PID=1227) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:08:17.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:08:17.884+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:08:17.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:08:17.893+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:08:17.922+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:08:17.922+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:08:17.933+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:08:17.932+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:08:17.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.075 seconds
+[2026-03-26T16:08:50.419+0000] {processor.py:161} INFO - Started process (PID=1232) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:08:50.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:08:50.421+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:08:50.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:08:50.428+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:08:50.451+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:08:50.451+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:08:50.461+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:08:50.461+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:08:50.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.063 seconds
+[2026-03-26T16:09:23.929+0000] {processor.py:161} INFO - Started process (PID=1237) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:09:23.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:09:23.932+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:09:23.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:09:23.940+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:09:23.965+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:09:23.965+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:09:23.975+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:09:23.974+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:09:23.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.068 seconds
+[2026-03-26T16:09:57.464+0000] {processor.py:161} INFO - Started process (PID=1242) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:09:57.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:09:57.467+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:09:57.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:09:57.474+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:09:57.500+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:09:57.500+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:09:57.514+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:09:57.513+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:09:57.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.074 seconds
+[2026-03-26T16:10:30.947+0000] {processor.py:161} INFO - Started process (PID=1247) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:10:30.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:10:30.950+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:10:30.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:10:30.958+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:10:30.988+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:10:30.988+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:10:31.003+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:10:31.002+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:10:31.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.081 seconds
+[2026-03-26T16:11:04.498+0000] {processor.py:161} INFO - Started process (PID=1252) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:11:04.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:11:04.501+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:11:04.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:11:04.511+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:11:04.557+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:11:04.557+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:11:04.569+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:11:04.569+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:11:04.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.097 seconds
+[2026-03-26T16:11:38.009+0000] {processor.py:161} INFO - Started process (PID=1257) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:11:38.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:11:38.012+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:11:38.012+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:11:38.022+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:11:38.050+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:11:38.050+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:11:38.060+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:11:38.060+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:11:38.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.079 seconds
+[2026-03-26T16:12:10.551+0000] {processor.py:161} INFO - Started process (PID=1262) to work on /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:12:10.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scada_pipeline_dag.py for tasks to queue
+[2026-03-26T16:12:10.554+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:12:10.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:12:10.564+0000] {processor.py:840} INFO - DAG(s) 'scada_pipeline' retrieved from /opt/airflow/dags/scada_pipeline_dag.py
+[2026-03-26T16:12:10.596+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:12:10.596+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-26T16:12:10.610+0000] {logging_mixin.py:188} INFO - [2026-03-26T16:12:10.610+0000] {dag.py:3947} INFO - Setting next_dagrun for scada_pipeline to None, run_after=None
+[2026-03-26T16:12:10.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scada_pipeline_dag.py took 0.092 seconds
