@@ -1,13 +1,17 @@
+{{ config(
+    materialized='table',
+    partition_by={
+        "field": "event_date",
+        "data_type": "date"
+    }
+) }}
 
-{{ config(materialized='table') }}
-
-select
-    date(event_timestamp) as event_date,
-    avg(lv_activepower_kw) as avg_activepower_kw,
-    avg(wind_speed_ms) as avg_wind_speed_ms,
-    avg(theoretical_power_curve_kwh) as avg_theoretical_power_curve_kwh,
-    avg(wind_direction_deg) as avg_wind_direction_deg,
-    count(*) as record_count
-from {{ ref('stg_scada') }}
-group by event_date
-order by event_date
+SELECT
+    DATE(event_timestamp) AS event_date,
+    AVG(lv_activepower_kw) AS avg_activepower_kw,
+    AVG(wind_speed_ms) AS avg_wind_speed_ms,
+    AVG(theoretical_power_curve_kwh) AS avg_theoretical_power_curve_kwh,
+    AVG(wind_direction_deg) AS avg_wind_direction_deg,
+    COUNT(*) AS record_count
+FROM {{ ref('stg_scada') }}
+GROUP BY event_date
