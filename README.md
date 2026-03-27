@@ -60,6 +60,8 @@ gs://<bucket>/raw/scada_data.csv
 
 ### 4. Transformations (dbt)
 
+The scada_daily_metrics table is partitioned by event_date to optimize time-based queries and reduce scan costs in BigQuery
+
 dbt models create analytical datasets:
 
 - **stg_scada**  
